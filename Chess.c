@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main()
 {
     char const K = 'K'; // король
@@ -21,7 +20,6 @@ int main()
             {'7', P, P, P, P, P, P, P, P},
             {'8', S, L, H, K, F, H, L, S},
     };
-
     for (int i = 0; i < 9; i++) // вывод изначальной доски
     {
         for (int j = 0; j < 9; j++)
